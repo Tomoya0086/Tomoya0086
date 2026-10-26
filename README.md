@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Tomoya0086/Tomoya0086/main/terminal.svg" alt="Tomoya Okazaki Cyber Terminal" width="100%" />
+<a href="https://github.com/Tomoya0086/gif-terminal-">
+  <img src="https://raw.githubusercontent.com/Tomoya0086/Tomoya0086/main/terminal.gif" alt="Tomoya Okazaki Dynamic Terminal Console" width="100%" />
+</a>
 
 <br/><br/>
 
