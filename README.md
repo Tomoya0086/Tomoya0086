@@ -1,29 +1,57 @@
 <div align="center">
 
-<!-- CUSTOM CYBER TERMINAL -->
-<img src="./terminal.svg" alt="Tomoya0086 Cyber Terminal" width="100%" />
+<!-- LIVE CUSTOM CYBER TERMINAL -->
+<img src="./terminal.svg" alt="Tomoya Okazaki Cyber Terminal" width="100%" />
 
 <br/><br/>
 
-# ⚡ Tomoya (AsmodeusXMB)
-### 🛡️ Defensive Cyber Threat Researcher &amp; Systems Architect
+# ⚡ Tomoya Okazaki
+### 🛡️ Cybersecurity Researcher &amp; Aspiring Purple Teamer
 
 [![GitHub Followers](https://img.shields.io/github/followers/Tomoya0086?style=for-the-badge&logo=github&color=00F0FF&labelColor=0a0f1d)](https://github.com/Tomoya0086)
 [![Verified SSH](https://img.shields.io/badge/Identity-ED25519%20Verified-00FF9D?style=for-the-badge&logo=gnupg&logoColor=black&labelColor=0a0f1d)](https://github.com/Tomoya0086)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8?style=for-the-badge&labelColor=0a0f1d)](LICENSE)
 
-<p>
-  <i>"Building high-impact defensive infrastructure, kinetic visual physics engines, and subatomic simulators."</i>
-</p>
+<br/>
+
+> *"Nothing can stay unchanged. Fun things… Happy things… They can’t possibly remain the same."*
 
 </div>
 
 ---
 
-### 💻 Interactive Terminal Operations
+### 💻 Terminal Operations
 
 <details open>
-<summary><b>▶ <code>./run_threat_sentinel --status</code> &nbsp; <span style="color:#00F0FF">[Cyber Threat Intelligence Suite]</span></b></summary>
+<summary><b>▶ <code>whoami --bio</code> &nbsp; <span style="color:#00F0FF">[Mission &amp; Focus]</span></b></summary>
+<br/>
+
+```text
+Operator:       Tomoya Okazaki (@Tomoya0086)
+Clearance:      Defensive & Adversary Simulation (Purple Team Operations)
+Current Focus:  Mastering Cybersecurity Fundamentals, Network Protocols & Threat Modeling
+Philosophy:     Continuous evolution through small iterations; bridging offensive insights with hardened defense.
+```
+
+I am a cybersecurity student dedicated to mastering **Purple Teaming**—bridging the gap between offensive adversary simulation and defensive threat detection. My work focuses on low-level systems programming in C, automation with Python, Linux container isolation, and dissecting web application vulnerabilities.
+
+</details>
+
+<details open>
+<summary><b>▶ <code>cat /etc/toolbox.conf</code> &nbsp; <span style="color:#00FF9D">[Core Tech Stack]</span></b></summary>
+<br/>
+
+| Category | Primary Technologies &amp; Tooling |
+|---|---|
+| **Core Languages** | `Python 3` • `C` • `Bash / Shell Scripting` |
+| **Security &amp; Pentesting** | `Burp Suite` • `Wireshark` • `OWASP Top 10 Auditing` • `Threat Intelligence` |
+| **Operating Systems &amp; Infra** | `Linux (Kali / Debian)` • `Docker Containerization` • `Virtualization &amp; Sandboxing` |
+| **Web &amp; Kinetic UI** | `TypeScript` • `React 19` • `Vite` • `Canvas 3D / WebGL` • `Web Audio API` |
+
+</details>
+
+<details>
+<summary><b>▶ <code>./run_threat_sentinel --status</code> &nbsp; <span style="color:#38BDF8">[Flagship Cyber Suite]</span></b></summary>
 <br/>
 
 ```bash
@@ -44,8 +72,8 @@
 
 </details>
 
-<details open>
-<summary><b>▶ <code>./boot_chemspace --reactor-3d</code> &nbsp; <span style="color:#00FF9D">[Quantum Chemistry Simulator]</span></b></summary>
+<details>
+<summary><b>▶ <code>./boot_chemspace --reactor-3d</code> &nbsp; <span style="color:#c084fc">[Quantum Chemistry Workstation]</span></b></summary>
 <br/>
 
 ```bash
@@ -63,55 +91,6 @@
 ```
 🔗 **Repository:** [github.com/Tomoya0086/Chemistry-virtual-lab](https://github.com/Tomoya0086/Chemistry-virtual-lab)  
 🛠️ **Tech Stack:** `Vanilla JS` • `WebGL` • `3Dmol.js` • `HTML5 Canvas 3D` • `jsPDF`
-
-</details>
-
-<details>
-<summary><b>▶ <code>./launch_gif_terminal --daily-sync</code> &nbsp; <span style="color:#38BDF8">[Automated Terminal Engine]</span></b></summary>
-<br/>
-
-```bash
-[+] Automated daily GitHub stats terminal generator:
-    ├─ Real-time commit, star, PR, and language analytics
-    ├─ Multi-theme support: Debian GNOME, macOS Liquid Glass, Classic Dark
-    └─ Auto-regenerated and committed via GitHub Actions daily at 06:00 UTC
-```
-🔗 **Repository:** [github.com/Tomoya0086/gif-terminal](https://github.com/Tomoya0086/gif-terminal)  
-🛠️ **Tech Stack:** `Python 3` • `Pillow` • `gifos` • `GitHub Actions CI/CD`
-
-</details>
-
-<details>
-<summary><b>▶ <code>cat /etc/security_manifest.json</code> &nbsp; <span style="color:#f59e0b">[Technical Architecture]</span></b></summary>
-<br/>
-
-```json
-{
-  "operator": "Tomoya0086 (AsmodeusXMB)",
-  "specializations": {
-    "security_operations": [
-      "Defensive Threat Intelligence",
-      "Phishing Forensic Header Analysis",
-      "Network Protocol Inspection & Wireshark",
-      "Container Sandboxing & Docker Hardening",
-      "OWASP Top 10 Surface Auditing"
-    ],
-    "frontend_architecture": [
-      "React 19 & Next.js Ecosystem",
-      "TypeScript Strict Type Safety",
-      "Hardware-Accelerated Canvas & WebGL 3D",
-      "Web Audio API Sound Synthesis",
-      "Anti-Vibe-Coding Precision UI Systems"
-    ],
-    "systems_and_scripting": [
-      "Linux (Kali / Debian Rolling)",
-      "Node.js & Express REST APIs",
-      "Python 3 Automation & Data Pipelines",
-      "Go & Bash Shell Scripting"
-    ]
-  }
-}
-```
 
 </details>
 
@@ -135,8 +114,8 @@
 ### 🔐 Cryptographic Identity & Verification
 
 ```text
-Identity:       Tomoya0086 (AsmodeusXMB)
-SSH Key:        ED25519 SHA256:ezBn+nqenDtSkMSOjWVhVNo8bVILq3jqwiLwRrKquVw
+Operator:       Tomoya Okazaki (@Tomoya0086)
+Fingerprint:    ED25519 SHA256:ezBn+nqenDtSkMSOjWVhVNo8bVILq3jqwiLwRrKquVw
 Transmission:   khalidnawaz7y@gmail.com
 Status:         Active • Secure • Production Ready
 ```
