@@ -15,6 +15,12 @@
 
 <br/>
 
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Tomoya.okazaki-EA1D24?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0a0f1d)](https://tryhackme.com/p/Tomoya.okazaki)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=0a0f1d)](https://profile.hackthebox.com/profile/01a0be6e-b00a-7335-9ff0-5864ad467519)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-khalidnawaz--sec-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0f1d)](https://www.linkedin.com/in/khalidnawaz-sec)
+
+<br/>
+
 > *"Nothing can stay unchanged. Fun things… Happy things… They can’t possibly remain the same."*
 
 </div>
@@ -118,6 +124,9 @@ I am a cybersecurity student dedicated to mastering **Purple Teaming**—bridgin
 Operator:       Tomoya Okazaki (@Tomoya0086)
 Fingerprint:    ED25519 SHA256:ezBn+nqenDtSkMSOjWVhVNo8bVILq3jqwiLwRrKquVw
 Transmission:   khalidnawaz7y@gmail.com
+LinkedIn:       linkedin.com/in/khalidnawaz-sec
+TryHackMe:      tryhackme.com/p/Tomoya.okazaki
+HackTheBox:     profile.hackthebox.com/profile/01a0be6e-b00a-7335-9ff0-5864ad467519
 Status:         Active • Secure • Production Ready
 ```
 
