@@ -1,22 +1,29 @@
 <div align="center">
 
-<!-- ANIMATED CYBER TERMINAL -->
-<img src="./terminal.svg" alt="Tomoya Sentinel Terminal" width="100%" />
+<!-- ANIMATED TERMINAL GIF FROM GIF-TERMINAL -->
+<img src="./terminal.gif" alt="Tomoya0086 Animated Terminal" width="100%" />
 
-<br/>
+<br/><br/>
+
+# ⚡ Tomoya (AsmodeusXMB)
+### 🛡️ Defensive Cyber Threat Researcher &amp; Systems Architect
 
 [![GitHub Followers](https://img.shields.io/github/followers/Tomoya0086?style=for-the-badge&logo=github&color=00F0FF&labelColor=0a0f1d)](https://github.com/Tomoya0086)
 [![Verified SSH](https://img.shields.io/badge/Identity-ED25519%20Verified-00FF9D?style=for-the-badge&logo=gnupg&logoColor=black&labelColor=0a0f1d)](https://github.com/Tomoya0086)
 [![License: MIT](https://img.shields.io/badge/License-MIT-38BDF8?style=for-the-badge&labelColor=0a0f1d)](LICENSE)
 
+<p>
+  <i>"Building high-impact defensive infrastructure, kinetic visual physics engines, and subatomic simulators."</i>
+</p>
+
 </div>
 
 ---
 
-### 💻 Interactive Cyber CLI Session
+### 💻 Interactive Terminal Operations
 
 <details open>
-<summary><b>▶ <code>./run_threat_sentinel --status</code> &nbsp; <span style="color:#00F0FF">[Flagship Cyber Suite]</span></b></summary>
+<summary><b>▶ <code>./run_threat_sentinel --status</code> &nbsp; <span style="color:#00F0FF">[Cyber Threat Intelligence Suite]</span></b></summary>
 <br/>
 
 ```bash
@@ -60,7 +67,22 @@
 </details>
 
 <details>
-<summary><b>▶ <code>cat /etc/security_manifest.json</code> &nbsp; <span style="color:#38BDF8">[Competencies &amp; Tech Stack]</span></b></summary>
+<summary><b>▶ <code>./launch_gif_terminal --daily-sync</code> &nbsp; <span style="color:#38BDF8">[Automated Terminal Engine]</span></b></summary>
+<br/>
+
+```bash
+[+] Automated daily GitHub stats terminal generator:
+    ├─ Real-time commit, star, PR, and language analytics
+    ├─ Multi-theme support: Debian GNOME, macOS Liquid Glass, Classic Dark
+    └─ Auto-regenerated and committed via GitHub Actions daily at 06:00 UTC
+```
+🔗 **Repository:** [github.com/Tomoya0086/gif-terminal](https://github.com/Tomoya0086/gif-terminal)  
+🛠️ **Tech Stack:** `Python 3` • `Pillow` • `gifos` • `GitHub Actions CI/CD`
+
+</details>
+
+<details>
+<summary><b>▶ <code>cat /etc/security_manifest.json</code> &nbsp; <span style="color:#f59e0b">[Technical Architecture]</span></b></summary>
 <br/>
 
 ```json
@@ -71,7 +93,7 @@
       "Defensive Threat Intelligence",
       "Phishing Forensic Header Analysis",
       "Network Protocol Inspection & Wireshark",
-      "Container Sandboxing & Docker Perimeter Hardening",
+      "Container Sandboxing & Docker Hardening",
       "OWASP Top 10 Surface Auditing"
     ],
     "frontend_architecture": [
@@ -110,13 +132,13 @@
 
 ---
 
-### 🔐 Cryptographic Identity & Channel
+### 🔐 Cryptographic Identity & Verification
 
 ```text
 Identity:       Tomoya0086 (AsmodeusXMB)
-Fingerprint:    ED25519 SHA256:ezBn+nqenDtSkMSOjWVhVNo8bVILq3jqwiLwRrKquVw
+SSH Key:        ED25519 SHA256:ezBn+nqenDtSkMSOjWVhVNo8bVILq3jqwiLwRrKquVw
 Transmission:   khalidnawaz7y@gmail.com
-Status:         Active • Secure • Ready for Deployment
+Status:         Active • Secure • Production Ready
 ```
 
 <div align="center">
