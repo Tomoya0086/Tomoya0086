@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ANIMATED TERMINAL GIF FROM GIF-TERMINAL -->
-<img src="./terminal.gif" alt="Tomoya0086 Animated Terminal" width="100%" />
+<!-- CUSTOM CYBER TERMINAL -->
+<img src="./terminal.svg" alt="Tomoya0086 Cyber Terminal" width="100%" />
 
 <br/><br/>
 
