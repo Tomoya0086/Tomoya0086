@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- LIVE CUSTOM CYBER TERMINAL -->
-<img src="./terminal.svg" alt="Tomoya Okazaki Cyber Terminal" width="100%" />
+<img src="https://raw.githubusercontent.com/Tomoya0086/Tomoya0086/main/terminal.svg" alt="Tomoya Okazaki Cyber Terminal" width="100%" />
 
 <br/><br/>
 

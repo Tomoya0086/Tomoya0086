@@ -1,164 +1,110 @@
-<svg fill="none" viewBox="0 0 840 480" width="840" height="480" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @keyframes blink {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0; }
-        }
-        @keyframes glowPulse {
-          0%, 100% { box-shadow: 0 0 25px rgba(0, 240, 255, 0.15), inset 0 0 20px rgba(0, 240, 255, 0.05); }
-          50% { box-shadow: 0 0 35px rgba(168, 85, 247, 0.22), inset 0 0 25px rgba(0, 255, 157, 0.08); }
-        }
-        .window {
-          background: #060913;
-          border: 1px solid #1a233a;
-          border-radius: 10px;
-          overflow: hidden;
-          font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-          color: #c9d1d9;
-          position: relative;
-          box-sizing: border-box;
-          animation: glowPulse 6s infinite ease-in-out;
-        }
-        .titlebar {
-          background: #0c1222;
-          padding: 10px 16px;
-          display: flex;
-          align-items: center;
-          border-bottom: 1px solid #1a233a;
-          user-select: none;
-        }
-        .dots {
-          display: flex;
-          gap: 7px;
-        }
-        .dot {
-          width: 11px;
-          height: 11px;
-          border-radius: 50%;
-        }
-        .red { background: #ff5f56; box-shadow: 0 0 6px rgba(255, 95, 86, 0.5); }
-        .yellow { background: #ffbd2e; box-shadow: 0 0 6px rgba(255, 189, 46, 0.5); }
-        .green { background: #27c93f; box-shadow: 0 0 6px rgba(39, 201, 63, 0.5); }
-        .title {
-          flex-grow: 1;
-          text-align: center;
-          font-size: 12px;
-          color: #64748b;
-          letter-spacing: 0.06em;
-          margin-right: 48px;
-        }
-        .term-body {
-          padding: 18px 22px;
-          font-size: 12.5px;
-          line-height: 1.55;
-        }
-        .prompt {
-          color: #00FF9D;
-          font-weight: bold;
-        }
-        .path {
-          color: #00F0FF;
-        }
-        .cmd {
-          color: #f1f5f9;
-        }
-        .ascii-art {
-          color: #00F0FF;
-          font-weight: 700;
-          line-height: 1.15;
-          margin: 0;
-          font-size: 10.5px;
-        }
-        .accent { color: #00F0FF; }
-        .accent2 { color: #00FF9D; }
-        .purple { color: #c084fc; font-weight: 700; }
-        .dim { color: #475569; }
-        .label { color: #94a3b8; font-weight: 600; }
-        .quote {
-          color: #e2e8f0;
-          font-style: italic;
-          background: rgba(255, 255, 255, 0.04);
-          border-left: 2px solid #00F0FF;
-          padding: 4px 10px;
-          margin: 10px 0 6px 0;
-          border-radius: 0 4px 4px 0;
-          font-size: 12px;
-        }
-        .cursor {
-          display: inline-block;
-          width: 8px;
-          height: 15px;
-          background: #00FF9D;
-          vertical-align: middle;
-          margin-left: 4px;
-          animation: blink 1s infinite;
-          box-shadow: 0 0 8px #00FF9D;
-        }
-        .layout {
-          display: flex;
-          gap: 24px;
-          align-items: flex-start;
-          margin-top: 8px;
-        }
-        .stats-col {
-          flex: 1;
-        }
-      </style>
-      <div class="window">
-        <div class="titlebar">
-          <div class="dots">
-            <div class="dot red"></div>
-            <div class="dot yellow"></div>
-            <div class="dot green"></div>
-          </div>
-          <div class="title">tomoya@sentinel: ~ (zsh) — 840×480</div>
-        </div>
-        <div class="term-body">
-          <div>
-            <span class="prompt">┌──[</span><span class="accent2">tomoya@sentinel</span><span class="prompt">]─[</span><span class="path">~</span><span class="prompt">]</span><br/>
-            <span class="prompt">└──$</span> <span class="cmd">neofetch --operator-mode</span>
-          </div>
-          
-          <div class="layout">
-            <pre class="ascii-art">
-   ______      __             
-  / ____/_  __/ /_  ___  _____
- / /   / / / / __ \/ _ \/ ___/
-/ /___/ /_/ / /_/ /  __/ /    
-\____/\__, /_.___/\___/_/     
-     /____/                   
-  ╔════════════════════════╗
-  ║ TOMOYA OKAZAKI         ║
-  ║ ROLE: PURPLE TEAMER    ║
-  ║ OPS: RED &amp; BLUE TEAM   ║
-  ╚════════════════════════╝</pre>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
 
-            <div class="stats-col">
-              <div><span class="accent2">Tomoya Okazaki</span> <span class="dim">(@Tomoya0086)</span></div>
-              <div class="dim">--------------------------------------------</div>
-              <div><span class="label">Specialization:</span> <span class="purple">Cybersecurity Researcher &amp; Aspiring Purple Teamer</span></div>
-              <div><span class="label">Current Focus:</span> Cybersecurity Fundamentals &amp; Threat Emulation</div>
-              <div><span class="label">Primary Stack:</span> <span class="accent2">Python</span> • <span class="accent">C</span> • <span class="accent">Linux (Kali)</span> • <span class="accent2">Burp Suite</span> • <span class="accent">Docker</span></div>
-              <div><span class="label">OS / Shell:</span> Kali GNU/Linux Rolling x86_64 / zsh 5.9</div>
-              <div><span class="label">Engineered Systems:</span></div>
-              <div>&nbsp;&nbsp;├─ <span class="accent">[DEFENSE]</span> <b class="accent">ThreatSentinel</b> — Threat Intelligence &amp; Radar Suite</div>
-              <div>&nbsp;&nbsp;└─ <span class="accent2">[PHYSICS]</span> <b class="accent2">ChemSpace</b> — 3D Quantum Scroll Reactor &amp; Synth</div>
-              <div><span class="label">SSH Fingerprint:</span> <span class="dim">SHA256:ezBn+nqenDtSkMSOjWVh...</span></div>
-            </div>
-          </div>
+  <!-- Window Container -->
+  <rect x="1" y="1" width="838" height="458" rx="10" fill="#060913" stroke="#1a233a" stroke-width="2"/>
 
-          <div class="quote">
-            "Nothing can stay unchanged. Fun things… Happy things… They can’t possibly remain the same."
-          </div>
+  <!-- Title Bar -->
+  <path d="M 1 11 Q 1 1 11 1 L 829 1 Q 839 1 839 11 L 839 38 L 1 38 Z" fill="#0c1222"/>
+  <line x1="1" y1="38" x2="839" y2="38" stroke="#1a233a" stroke-width="1"/>
 
-          <div>
-            <span class="prompt">┌──[</span><span class="accent2">tomoya@sentinel</span><span class="prompt">]─[</span><span class="path">~</span><span class="prompt">]</span><br/>
-            <span class="prompt">└──$</span> <span class="cmd">./launch_operations.sh --continuous-learning</span><span class="cursor"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+  <!-- Window Control Dots -->
+  <circle cx="24" cy="19" r="5.5" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="5.5" fill="#ffbd2e"/>
+  <circle cx="64" cy="19" r="5.5" fill="#27c93f"/>
+
+  <!-- Title Bar Text -->
+  <text x="420" y="24" text-anchor="middle" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" letter-spacing="0.5">tomoya@sentinel: ~ (zsh) — 840×460</text>
+
+  <!-- Top Prompt -->
+  <text x="24" y="66" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13">
+    <tspan fill="#00FF9D" font-weight="bold">┌──[</tspan><tspan fill="#00F0FF" font-weight="bold">tomoya@sentinel</tspan><tspan fill="#00FF9D" font-weight="bold">]─[</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#00FF9D" font-weight="bold">]</tspan>
+  </text>
+  <text x="24" y="86" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13">
+    <tspan fill="#00FF9D" font-weight="bold">└──$ </tspan><tspan fill="#f1f5f9">neofetch --operator-mode</tspan>
+  </text>
+
+  <!-- ASCII Art Section (Left) -->
+  <text x="24" y="120" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold">   ______      __             </text>
+  <text x="24" y="135" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold">  / ____/_  __/ /_  ___  _____</text>
+  <text x="24" y="150" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold"> / /   / / / / __ \/ _ \/ ___/</text>
+  <text x="24" y="165" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold">/ /___/ /_/ / /_/ /  __/ /    </text>
+  <text x="24" y="180" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold">\____/\__, /_.___/\___/_/     </text>
+  <text x="24" y="195" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF" font-weight="bold">     /____/                   </text>
+  <text x="24" y="217" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38BDF8">  ╔════════════════════════╗</text>
+  <text x="24" y="233" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00FF9D" font-weight="bold">  ║ TOMOYA OKAZAKI         ║</text>
+  <text x="24" y="249" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c084fc" font-weight="bold">  ║ ROLE: PURPLE TEAMER    ║</text>
+  <text x="24" y="265" font-family="'JetBrains Mono', monospace" font-size="11" fill="#00F0FF">  ║ OPS: RED &amp; BLUE TEAM   ║</text>
+  <text x="24" y="281" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38BDF8">  ╚════════════════════════╝</text>
+
+  <!-- Neofetch Operator Specs (Right) -->
+  <text x="260" y="120" font-family="'JetBrains Mono', monospace" font-size="13">
+    <tspan fill="#00FF9D" font-weight="bold">Tomoya Okazaki</tspan> <tspan fill="#64748b">(@Tomoya0086)</tspan>
+  </text>
+  <text x="260" y="136" font-family="'JetBrains Mono', monospace" font-size="12" fill="#334155">----------------------------------------------------</text>
+
+  <text x="260" y="156" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">Specialization: </tspan>
+    <tspan fill="#c084fc" font-weight="bold">Cybersecurity &amp; Aspiring Purple Teamer</tspan>
+  </text>
+
+  <text x="260" y="176" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">Current Focus: </tspan>
+    <tspan fill="#f1f5f9">Cybersecurity Fundamentals &amp; Threat Emulation</tspan>
+  </text>
+
+  <text x="260" y="196" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">Primary Stack: </tspan>
+    <tspan fill="#00FF9D" font-weight="600">Python</tspan><tspan fill="#64748b"> • </tspan>
+    <tspan fill="#00F0FF" font-weight="600">C</tspan><tspan fill="#64748b"> • </tspan>
+    <tspan fill="#38BDF8" font-weight="600">Linux (Kali)</tspan><tspan fill="#64748b"> • </tspan>
+    <tspan fill="#00FF9D" font-weight="600">Burp Suite</tspan><tspan fill="#64748b"> • </tspan>
+    <tspan fill="#00F0FF" font-weight="600">Docker</tspan>
+  </text>
+
+  <text x="260" y="216" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">OS / Kernel: </tspan>
+    <tspan fill="#cbd5e1">Kali GNU/Linux Rolling x86_64 / 6.12.0</tspan>
+  </text>
+
+  <text x="260" y="236" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">Shell / PTY: </tspan>
+    <tspan fill="#cbd5e1">zsh 5.9 / xterm-256color</tspan>
+  </text>
+
+  <text x="260" y="256" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">Engineered: </tspan>
+    <tspan fill="#00F0FF">[LIVE]</tspan> <tspan fill="#38BDF8" font-weight="bold">ThreatSentinel</tspan><tspan fill="#64748b"> &amp; </tspan>
+    <tspan fill="#00FF9D">[LIVE]</tspan> <tspan fill="#00FF9D" font-weight="bold">ChemSpace</tspan>
+  </text>
+
+  <text x="260" y="276" font-family="'JetBrains Mono', monospace" font-size="12">
+    <tspan fill="#94a3b8" font-weight="600">SSH Fingerprint: </tspan>
+    <tspan fill="#64748b">ED25519 SHA256:ezBn+nqenDtSkMSOjWVh...</tspan>
+  </text>
+
+  <!-- Quote Box -->
+  <rect x="24" y="306" width="792" height="42" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="1"/>
+  <rect x="24" y="306" width="4" height="42" rx="2" fill="#00F0FF"/>
+  <text x="40" y="332" font-family="'JetBrains Mono', monospace" font-size="12.5" font-style="italic" fill="#e2e8f0">
+    "Nothing can stay unchanged. Fun things… Happy things… They can’t possibly remain the same."
+  </text>
+
+  <!-- Bottom Command Prompt with Animated Cursor -->
+  <text x="24" y="380" font-family="'JetBrains Mono', monospace" font-size="13">
+    <tspan fill="#00FF9D" font-weight="bold">┌──[</tspan><tspan fill="#00F0FF" font-weight="bold">tomoya@sentinel</tspan><tspan fill="#00FF9D" font-weight="bold">]─[</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#00FF9D" font-weight="bold">]</tspan>
+  </text>
+  <text x="24" y="400" font-family="'JetBrains Mono', monospace" font-size="13">
+    <tspan fill="#00FF9D" font-weight="bold">└──$ </tspan><tspan fill="#f1f5f9">./launch_operations.sh --continuous-learning</tspan>
+  </text>
+
+  <!-- Blinking Cursor -->
+  <rect x="424" y="388" width="8" height="15" fill="#00FF9D">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
 </svg>
