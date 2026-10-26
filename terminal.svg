@@ -1,0 +1,156 @@
+<svg fill="none" viewBox="0 0 840 470" width="840" height="470" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+        @keyframes scanline {
+          0% { transform: translateY(-100%); }
+          100% { transform: translateY(1000%); }
+        }
+        @keyframes glowPulse {
+          0%, 100% { box-shadow: 0 0 25px rgba(0, 240, 255, 0.15), inset 0 0 20px rgba(0, 240, 255, 0.05); }
+          50% { box-shadow: 0 0 35px rgba(0, 255, 157, 0.2), inset 0 0 25px rgba(0, 255, 157, 0.08); }
+        }
+        .window {
+          background: #060913;
+          border: 1px solid #1a233a;
+          border-radius: 10px;
+          overflow: hidden;
+          font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+          color: #c9d1d9;
+          position: relative;
+          box-sizing: border-box;
+          animation: glowPulse 6s infinite ease-in-out;
+        }
+        .titlebar {
+          background: #0c1222;
+          padding: 10px 16px;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #1a233a;
+          user-select: none;
+        }
+        .dots {
+          display: flex;
+          gap: 7px;
+        }
+        .dot {
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+        }
+        .red { background: #ff5f56; box-shadow: 0 0 6px rgba(255, 95, 86, 0.5); }
+        .yellow { background: #ffbd2e; box-shadow: 0 0 6px rgba(255, 189, 46, 0.5); }
+        .green { background: #27c93f; box-shadow: 0 0 6px rgba(39, 201, 63, 0.5); }
+        .title {
+          flex-grow: 1;
+          text-align: center;
+          font-size: 12px;
+          color: #64748b;
+          letter-spacing: 0.06em;
+          margin-right: 48px;
+        }
+        .term-body {
+          padding: 18px 22px;
+          font-size: 13px;
+          line-height: 1.6;
+        }
+        .prompt {
+          color: #00FF9D;
+          font-weight: bold;
+        }
+        .path {
+          color: #00F0FF;
+        }
+        .cmd {
+          color: #f1f5f9;
+        }
+        .ascii-art {
+          color: #00F0FF;
+          font-weight: 700;
+          line-height: 1.15;
+          margin: 0;
+          font-size: 11px;
+        }
+        .accent { color: #00F0FF; }
+        .accent2 { color: #00FF9D; }
+        .accent3 { color: #38BDF8; }
+        .dim { color: #475569; }
+        .label { color: #94a3b8; font-weight: 600; }
+        .cursor {
+          display: inline-block;
+          width: 8px;
+          height: 15px;
+          background: #00FF9D;
+          vertical-align: middle;
+          margin-left: 4px;
+          animation: blink 1s infinite;
+          box-shadow: 0 0 8px #00FF9D;
+        }
+        .layout {
+          display: flex;
+          gap: 28px;
+          align-items: flex-start;
+          margin-top: 10px;
+        }
+        .stats-col {
+          flex: 1;
+        }
+      </style>
+      <div class="window">
+        <div class="titlebar">
+          <div class="dots">
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+          </div>
+          <div class="title">tomoya@sentinel: ~ (zsh) — 840×470</div>
+        </div>
+        <div class="term-body">
+          <div>
+            <span class="prompt">┌──[</span><span class="accent2">tomoya@sentinel</span><span class="prompt">]─[</span><span class="path">~</span><span class="prompt">]</span><br/>
+            <span class="prompt">└──$</span> <span class="cmd">neofetch --cyber-mode</span>
+          </div>
+          
+          <div class="layout">
+            <pre class="ascii-art">
+   ______      __             
+  / ____/_  __/ /_  ___  _____
+ / /   / / / / __ \/ _ \/ ___/
+/ /___/ /_/ / /_/ /  __/ /    
+\____/\__, /_.___/\___/_/     
+     /____/                   
+  ╔════════════════════════╗
+  ║  SENTINEL OPERATOR v3  ║
+  ║  IDENTITY: ASMODEUS    ║
+  ║  CLEARANCE: DEFENSIVE  ║
+  ╚════════════════════════╝</pre>
+
+            <div class="stats-col">
+              <div><span class="accent2">tomoya</span><span class="dim">@</span><span class="accent">sentinel-node</span></div>
+              <div class="dim">------------------------------------</div>
+              <div><span class="label">OS:</span> Kali GNU/Linux Rolling x86_64</div>
+              <div><span class="label">Host:</span> Cyber Threat &amp; Quantum Physics Lab</div>
+              <div><span class="label">Kernel:</span> 6.12.0-sentinel-hardened</div>
+              <div><span class="label">Uptime:</span> 1337 hrs (High Availability)</div>
+              <div><span class="label">Shell:</span> zsh 5.9 (x86_64-linux)</div>
+              <div><span class="label">Security Ops:</span> Threat Modeling • Forensic Forensics • Phishing Auditing</div>
+              <div><span class="label">Engineered Systems:</span></div>
+              <div>&nbsp;&nbsp;├─ <span class="accent">[LIVE]</span> <b class="accent">ThreatSentinel</b> — All-in-One Cyber Radar &amp; Threat Suite</div>
+              <div>&nbsp;&nbsp;└─ <span class="accent2">[LIVE]</span> <b class="accent2">ChemSpace</b> — 3D Quantum Scroll Reactor &amp; Element Synth</div>
+              <div><span class="label">SSH Fingerprint:</span> <span class="dim">SHA256:ezBn+nqenDtSkMSOjWVh...</span></div>
+            </div>
+          </div>
+
+          <div style="margin-top: 14px;">
+            <span class="prompt">┌──[</span><span class="accent2">tomoya@sentinel</span><span class="prompt">]─[</span><span class="path">~</span><span class="prompt">]</span><br/>
+            <span class="prompt">└──$</span> <span class="cmd">status --ready-for-production</span><span class="cursor"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
