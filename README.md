@@ -122,7 +122,6 @@ I am a cybersecurity student dedicated to mastering **Purple Teaming**—bridgin
 
 ```text
 Operator:       Tomoya Okazaki (@Tomoya0086)
-Fingerprint:    ED25519 SHA256:ezBn+nqenDtSkMSOjWVhVNo8bVILq3jqwiLwRrKquVw
 Transmission:   khalidnawaz7y@gmail.com
 LinkedIn:       linkedin.com/in/khalidnawaz-sec
 TryHackMe:      tryhackme.com/p/Tomoya.okazaki
